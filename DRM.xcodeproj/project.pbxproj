@@ -15,6 +15,7 @@
 		A90A32D1246D2CB8007A3131 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A90A32CF246D2CB8007A3131 /* LaunchScreen.storyboard */; };
 		A90A32DC246D2CB8007A3131 /* DRMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90A32DB246D2CB8007A3131 /* DRMTests.swift */; };
 		A90A32E7246D2CB8007A3131 /* DRMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90A32E6246D2CB8007A3131 /* DRMUITests.swift */; };
+		A90A32F5246D3D8D007A3131 /* Webview.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90A32F4246D3D8D007A3131 /* Webview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		A90A32E2246D2CB8007A3131 /* DRMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DRMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A90A32E6246D2CB8007A3131 /* DRMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DRMUITests.swift; sourceTree = "<group>"; };
 		A90A32E8246D2CB8007A3131 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A90A32F4246D3D8D007A3131 /* Webview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				A90A32CF246D2CB8007A3131 /* LaunchScreen.storyboard */,
 				A90A32D2246D2CB8007A3131 /* Info.plist */,
 				A90A32CC246D2CB8007A3131 /* Preview Content */,
+				A90A32F4246D3D8D007A3131 /* Webview.swift */,
 			);
 			path = DRM;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A90A32C5246D2CB7007A3131 /* AppDelegate.swift in Sources */,
+				A90A32F5246D3D8D007A3131 /* Webview.swift in Sources */,
 				A90A32C7246D2CB7007A3131 /* SceneDelegate.swift in Sources */,
 				A90A32C9246D2CB7007A3131 /* ContentView.swift in Sources */,
 			);
